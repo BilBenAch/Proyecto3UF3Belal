@@ -1,10 +1,10 @@
 
-class TresEnRatlla {
+class TresEnRaya {
 
     char tabla[][];
     boolean jugador;
 
-    TresEnRatlla() {
+    TresEnRaya() {
         tabla = new char[3][3];
         boolean jugador = true;
     }

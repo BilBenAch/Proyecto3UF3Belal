@@ -8,7 +8,7 @@ public class main {
         System.out.println("Benvingut al joc de tres en ratlla, espero que t'ho passis bé :DD");
         System.out.println();
         Scanner sc = new Scanner(System.in);
-        TresEnRatlla jugar = new TresEnRatlla();
+        TresEnRaya jugar = new TresEnRaya();
 
         jugar.iniciarTabla();
 
