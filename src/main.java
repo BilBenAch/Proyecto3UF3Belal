@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Scanner;
 
 public class main {
@@ -50,11 +51,16 @@ public class main {
             jugar.comprobarGanador();
             jugar.mostarTablero();
         }
+        int contadorVictoriasJugadorUno = 0;
+        int contadorVictoriasJugadorDos = 0;
         if (jugar.comprobarGanador()) {
             if (jugar.jugador) {
                 System.out.println("Felicitats ha guanyat el jugador 1");
+                contadorVictoriasJugadorUno++;
+
             } else {
                 System.out.println("Felicitats ha guanyat el jugador 2");
+                contadorVictoriasJugadorDos++;
             }
         } else System.out.println("Empat");
 
@@ -62,6 +68,7 @@ public class main {
         System.out.println("******************************");
         System.out.println();
         System.out.println();
+
 
     }
 }
