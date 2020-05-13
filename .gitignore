@@ -1,3 +1,4 @@
-'.idea'
+# Project exclude paths
 /out/
 /.idea
+!/Proyecto3UF3BelalBenmousa.iml
