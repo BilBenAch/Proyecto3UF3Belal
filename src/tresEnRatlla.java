@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
- class TresEnRatlla {
+ class tresEnRatlla {
 
     char tabla[][];
     boolean jugador;
     String nombreJugador1;
     String nombreJugador2;
-    RankingFichero ranking = new RankingFichero();
+    rankingFichero ranking = new rankingFichero();
 
-    TresEnRatlla() {
+    tresEnRatlla() {
         tabla = new char[3][3];
     }
 

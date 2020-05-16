@@ -23,7 +23,7 @@ public class menuEleccioJoc {
                         System.out.println();
                         System.out.println();
                         System.out.println("Jugant al Joc ");
-                        TresEnRatlla jugar = new TresEnRatlla();
+                        tresEnRatlla jugar = new tresEnRatlla();
                         jugar.juga();
                         System.out.println();
                         System.out.println();
@@ -32,7 +32,7 @@ public class menuEleccioJoc {
                         System.out.println();
                         System.out.println();
                         System.out.println("Has entrat a veure el Ranking");
-                        RankingFichero ranking = new RankingFichero();
+                        rankingFichero ranking = new rankingFichero();
                         ranking.mostraRanking();
                         System.out.println();
                         System.out.println();
