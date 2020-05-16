@@ -156,8 +156,8 @@ import java.util.Scanner;
         String jugador2 = sc.nextLine();
         setNombreJugador2(jugador2);
         while(comprobarNombre){
-            if(jugador1.equals(jugador2)){
-                System.out.println("No poden tenir el mateix nom a la mateixa partida els dos jugadors");
+            if(jugador1.equals(jugador2) || jugador1.trim().isEmpty() || jugador2.trim().isEmpty()){
+                System.out.println("No poden tenir el mateix nom a la mateixa partida els dos jugadors ");
                 System.out.println("Introdueix el nom del jugador1 ");
                 jugador1 = sc.nextLine();
                 setNombreJugador1(jugador1);
@@ -216,7 +216,6 @@ import java.util.Scanner;
 
         mostraGanador();
 
-        ranking.mostraRanking();
 
         System.out.println();
         System.out.println("******************************");

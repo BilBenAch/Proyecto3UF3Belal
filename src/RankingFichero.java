@@ -28,10 +28,9 @@ public class RankingFichero {
                 }
             }
             System.out.println("-RANKING-");
-            System.out.println(map.entrySet().stream()
+            map.entrySet().stream()
                     .sorted(Collections.reverseOrder((Map.Entry.comparingByValue())))
-                    .collect(Collectors.toList()));
-
+                    .collect(Collectors.toList()).forEach(System.out::println);
             reader.close();
         }catch(IOException e){
             System.out.println("Ha habido un error en la lectura");
