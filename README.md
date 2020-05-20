@@ -32,6 +32,6 @@ Aquest projecte conté un menú amb dos opcions, la primera jugar al joc de tres
 Per executar el programa cal aplicar la següent comanda en la terminal: 
 
 ```
-$ java -jar Proyecto3UF3Belal.jar
+$ java -jar Proyecto3UF3BelalBenmousa.jar
 ```
 
