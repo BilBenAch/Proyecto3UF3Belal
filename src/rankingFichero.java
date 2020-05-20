@@ -17,7 +17,7 @@ public class rankingFichero implements ranking {
     @Override
     public void mostraRanking() {
         try {
-            //Map<String, Integer> map = new HashMap<>();
+
             HashMap<String, Integer> map = new HashMap<String, Integer>();
 
             String line;
@@ -45,9 +45,7 @@ public class rankingFichero implements ranking {
             for (Map.Entry<String, Integer> en : hm1.entrySet()) {
                 System.out.println(en.getKey() +"\t"+ en.getValue());
             }
-            /*map.entrySet().stream()
-                    .sorted(Collections.reverseOrder((Map.Entry.comparingByValue())))
-                    .collect(Collectors.toList()).forEach(System.out::println);*/
+
             reader.close();
         }catch(IOException e){
             System.out.println("Ha habido un error en la lectura");
