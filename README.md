@@ -27,6 +27,7 @@ Aquest projecte conté un menú amb dos opcions, la primera jugar al joc de tres
 ## Ranking
 
 - regles
+
         Només s'incloure'n els guanyadors de cada partida del tres en ratlla, en cas d'empat no inclourà camp usuari.
         El rànquing inclourà tots els usuaris que han guanyat i les seves victòries totals ordenat per més victòries.
         
