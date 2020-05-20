@@ -10,10 +10,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class rankingFichero {
+public class rankingFichero implements ranking {
 
     private static String FILENAME = "ranking.txt";
 
+    @Override
     public void mostraRanking() {
         try {
             //Map<String, Integer> map = new HashMap<>();
@@ -53,7 +54,7 @@ public class rankingFichero {
         }
 
     }
-
+    @Override
     public void actualitzaRanking(String username)  {
         FileWriter escritura = null;
         try {
