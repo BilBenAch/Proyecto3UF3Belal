@@ -1,6 +1,6 @@
 # Proyecto3UF3Belal
 
-Aquest projecte conté un menú amb dos opcions, la primera jugar al joc de tres en ratlla i la segona veure el ranking de guanyadors :<br><br>
+Aquest projecte conté un menú amb dos opcions, la primera jugar al joc de tres en ratlla i la segona veure el Ranking de guanyadors :<br><br>
 
 
 ## 3 en ratlla

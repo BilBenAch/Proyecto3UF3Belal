@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class menuEleccioJoc {
+public class MenuEleccioJoc {
 
 
     public void mostra() {
@@ -23,7 +23,7 @@ public class menuEleccioJoc {
                         System.out.println();
                         System.out.println();
                         System.out.println("Jugant al Joc ");
-                        tresEnRatlla jugar = new tresEnRatlla();
+                        TresEnRatlla jugar = new TresEnRatlla();
                         jugar.juga();
                         System.out.println();
                         System.out.println();
@@ -32,7 +32,7 @@ public class menuEleccioJoc {
                         System.out.println();
                         System.out.println();
                         System.out.println("Has entrat a veure el Ranking");
-                        rankingFichero ranking = new rankingFichero();
+                        RankingFichero ranking = new RankingFichero();
                         ranking.mostraRanking();
                         System.out.println();
                         System.out.println();

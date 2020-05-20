@@ -1,4 +1,4 @@
-public interface ranking {
+public interface Ranking {
     void mostraRanking();
 
     void actualitzaRanking(String username);
