@@ -11,6 +11,28 @@ public class RankingFichero implements Ranking {
 
     private static String FILENAME = "Ranking.txt";
 
+
+    @Override
+    public void crearFichero() {
+            try {
+
+                File myFile = new File(FILENAME);
+
+                if (myFile.createNewFile()){
+                    System.out.println("Fichero creado");
+                }else{
+                    System.out.println("El fichero ya existe.");
+                }
+
+            } catch (IOException e) {
+                System.out.println("Ha habido un error al crear el fichero");
+            }
+
+        }
+
+
+
+
     @Override
     public void mostraRanking() {
         try {
@@ -62,7 +84,6 @@ public class RankingFichero implements Ranking {
         }
     }
 
-
     public static HashMap<String, Integer> sortByValue(HashMap<String, Integer> map)
     {
 
@@ -85,6 +106,7 @@ public class RankingFichero implements Ranking {
         }
         return temp;
     }
+
 
 
 }
