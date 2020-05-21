@@ -21,7 +21,7 @@ public class RankingFichero implements Ranking {
                 if (myFile.createNewFile()){
                     System.out.println("Fichero creado");
                 }else{
-                    System.out.println("El fichero ya existe.");
+                   // System.out.println("El fichero ya existe.");
                 }
 
             } catch (IOException e) {
