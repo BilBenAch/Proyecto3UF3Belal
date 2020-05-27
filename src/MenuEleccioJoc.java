@@ -13,7 +13,7 @@ public class MenuEleccioJoc {
             System.out.println("Benvingut al menú del tren en ratlla, que vols fer? ");
             System.out.println("1. Jugar");
             System.out.println("2. Veure el Ranking");
-            System.out.println("3. Sortir.");
+            System.out.println("3. Sortir");
             try {
                 System.out.println("Introdueix lo que vols fer ");
                 opcion = sc.nextInt();
