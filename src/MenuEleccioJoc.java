@@ -10,7 +10,7 @@ public class MenuEleccioJoc {
         int opcioMenu = 0;
         int opcionSubmenu = 0;
         while (opcion != 3) {
-            System.out.println("Benvingut al menú del tren en ratlla, que vols fer as sd? ");
+            System.out.println("Benvingut al menú del tren en ratlla, que vols fer? ");
             System.out.println("1. Jugar");
             System.out.println("2. Veure el Ranking");
             System.out.println("3. Sortir");
